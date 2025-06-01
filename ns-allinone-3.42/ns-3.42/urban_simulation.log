@@ -1,0 +1,1110 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Creating urban network with 10 devices.
+Starting simulation for 100 seconds...
+0.151287s: ED4 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 3 (SF10)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 4940 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.17883s: ED10 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 5 (SF12)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 9500 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+0.463662s: ED9 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 1 (SF8)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 4680 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.484731s: ED8 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 5440 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.633959s: ED5 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 3 (SF10)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 5320 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.685561s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 4 (SF11)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 5280 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.80992s: ED6 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 3900 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+0.851635s: ED1 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.881193s: ED7 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 4 (SF11)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 7040 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.986762s: ED2 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 4 (SF11)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 4840 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+10.1513s: ED4 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 5720 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+10.1788s: ED10 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 5 (SF12)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 9500 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.4637s: ED9 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 7920 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+10.4847s: ED8 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 5 (SF12)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 8500 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 3640 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.6856s: ED3 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 3120 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.8099s: ED6 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 3900 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.8516s: ED1 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3200 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.8812s: ED7 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 5120 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.9868s: ED2 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 4 (SF11)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 4840 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.1513s: ED4 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 5720 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+20.1788s: ED10 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 3 (SF10)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 7220 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+20.4637s: ED9 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 7920 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.4847s: ED8 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 4 (SF11)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 7480 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 3640 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+20.6856s: ED3 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 5 (SF12)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 6000 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+20.8099s: ED6 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 4800 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.8516s: ED1 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 4 (SF11)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 4400 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.8812s: ED7 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 3 (SF10)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 6080 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+20.9868s: ED2 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 2200 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+30.1513s: ED4 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 5720 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.1788s: ED10 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 3 (SF10)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 7220 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.4637s: ED9 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 6840 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.4847s: ED8 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 0 (SF7)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 3400 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+30.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 3640 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.6856s: ED3 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 5 (SF12)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 6000 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.8099s: ED6 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 5 (SF12)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 7500 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+30.8516s: ED1 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+30.8812s: ED7 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 3 (SF10)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 6080 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+30.9868s: ED2 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 2200 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.1513s: ED4 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 5720 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.1788s: ED10 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 7220 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.4637s: ED9 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 0 (SF7)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 3600 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+40.4847s: ED8 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 0 (SF7)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 3400 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+40.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 2800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+40.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 3120 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.8099s: ED6 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 5 (SF12)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 7500 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+40.8516s: ED1 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+40.8812s: ED7 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 3 (SF10)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 6080 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+40.9868s: ED2 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 3520 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.1513s: ED4 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 2 (SF9)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 4160 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+50.1788s: ED10 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 4940 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+50.4637s: ED9 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 0 (SF7)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 3600 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.4847s: ED8 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 0 (SF7)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 3400 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+50.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 2800 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.6856s: ED3 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 3840 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+50.8099s: ED6 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 5 (SF12)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 7500 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.8516s: ED1 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.8812s: ED7 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 1 (SF8)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 4160 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+50.9868s: ED2 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 5 (SF12)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 5500 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+60.1513s: ED4 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 2 (SF9)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 4160 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.1788s: ED10 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 4940 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+60.4637s: ED9 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 7920 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+60.4847s: ED8 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 6460 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+60.634s: ED5 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 4480 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.6856s: ED3 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 3840 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.8099s: ED6 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 5700 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.8516s: ED1 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.8812s: ED7 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 1 (SF8)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 4160 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.9868s: ED2 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 5 (SF12)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 5500 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.1513s: ED4 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 2600 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.1788s: ED10 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 4940 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+70.4637s: ED9 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 7920 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+70.4847s: ED8 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 6460 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.634s: ED5 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 2800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+70.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 3120 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+70.8099s: ED6 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 1 (SF8)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 3900 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+70.8516s: ED1 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+70.8812s: ED7 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 4 (SF11)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 7040 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.9868s: ED2 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 1 (SF8)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 2860 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.1513s: ED4 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 2600 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.1788s: ED10 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 2 (SF9)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 6080 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+80.4637s: ED9 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 7920 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.4847s: ED8 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 5440 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.634s: ED5 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 2800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+80.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 3120 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+80.8099s: ED6 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 1 (SF8)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 3900 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.8516s: ED1 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+80.8812s: ED7 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 5120 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+80.9868s: ED2 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 3520 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.1513s: ED4 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 5 (SF12)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 29 bytes
+  Estimated Range: 6500 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.1788s: ED10 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 2 (SF9)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 47 bytes
+  Estimated Range: 6080 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.4637s: ED9 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 44 bytes
+  Estimated Range: 7920 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+90.4847s: ED8 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 41 bytes
+  Estimated Range: 6460 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.634s: ED5 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 32 bytes
+  Estimated Range: 2800 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 26 bytes
+  Estimated Range: 3120 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+90.8099s: ED6 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 0 (SF7)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 3000 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.8516s: ED1 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 3800 meters
+  Environment: Urban
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+90.8812s: ED7 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 38 bytes
+  Estimated Range: 5120 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.9868s: ED2 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 23 bytes
+  Estimated Range: 4180 meters
+  Environment: Urban
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+Simulation finished.
+
+--- Simulation Results ---
+Total Transmission Attempts: 100
+Total Successful Transmissions: 56
+Overall Frame Success Rate (FSR): 56%

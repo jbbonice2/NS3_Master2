@@ -23,7 +23,7 @@ SQLite support                : [32mON[0m
 Eigen3 support                : [31mOFF (Eigen was not found)[0m
 Tap Bridge                    : [32mON[0m
 Tap FdNetDevice               : [32mON[0m
-Tests                         : [32mON[0m
+Tests                         : OFF (not requested)
 
 
 Modules configured to be built:
@@ -37,12 +37,12 @@ lte                       mesh                      mobility
 netanim                   network                   nix-vector-routing        
 olsr                      point-to-point            point-to-point-layout     
 propagation               sixlowpan                 spectrum                  
-stats                     tap-bridge                test                      
-topology-read             traffic-control           uan                       
-virtual-net-device        wifi                      wimax                     
-
+stats                     tap-bridge                topology-read             
+traffic-control           uan                       virtual-net-device        
+wifi                      wimax                     
 
 Modules that cannot be built:
 brite                     click                     mpi                       
-openflow                  visualizer                
+openflow                  test                      visualizer                
+
 

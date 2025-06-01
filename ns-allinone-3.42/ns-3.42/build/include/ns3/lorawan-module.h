@@ -41,6 +41,7 @@
     #include <ns3/lora-utils.h>
     #include <ns3/adr-component.h>
     #include <ns3/hex-grid-position-allocator.h>
+    #include <ns3/tow-mab-selector.h>
     #include <ns3/lora-radio-energy-model-helper.h>
     #include <ns3/lora-helper.h>
     #include <ns3/lora-phy-helper.h>

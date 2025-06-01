@@ -1,0 +1,670 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Using default output directory /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/build
+-- CCache is enabled.
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: dia[0m
+-- Failed to locate sphinx-build executable (missing: SPHINX_EXECUTABLE) 
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: Sphinx epstopdf pdflatex latexmk dvipng dia[0m
+-- Processing src/antenna
+-- Standard library Bessel function has been found
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   Package 'libdpdk', required by 'virtual:world', not found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lorawan
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (Missing headers: "Brite.h" and missing libraries: "brite")[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : [32mON[0m
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [32mON[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (Missing headers: "simclick.h" and missing libraries: "nsclick click")[0m
+ns-3 OpenFlow Integration     : [31mOFF (Missing headers: "openflow.h" and missing libraries: "openflow")[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [31mOFF (Eigen was not found)[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+antenna                   aodv                      applications              
+bridge                    buildings                 config-store              
+core                      csma                      csma-layout               
+dsdv                      dsr                       energy                    
+fd-net-device             flow-monitor              internet                  
+internet-apps             lorawan                   lr-wpan                   
+lte                       mesh                      mobility                  
+netanim                   network                   nix-vector-routing        
+olsr                      point-to-point            point-to-point-layout     
+propagation               sixlowpan                 spectrum                  
+stats                     tap-bridge                topology-read             
+traffic-control           uan                       virtual-net-device        
+wifi                      wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Creating network with 5 devices.
+Starting simulation for 100 seconds...
+0.151287s: ED4 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 3 (SF10)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 24700 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.633959s: ED5 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 3 (SF10)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 26600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.685561s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 4 (SF11)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 26400 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.851635s: ED1 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 19000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+0.986762s: ED2 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 4 (SF11)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 24200 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.1513s: ED4 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 28600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 18200 meters
+  Environment: Rural
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+10.6856s: ED3 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 15600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+10.8516s: ED1 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 16000 meters
+  Environment: Rural
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+10.9868s: ED2 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 11000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.1513s: ED4 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 28600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 18200 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.6856s: ED3 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 5 (SF12)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 30000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.8516s: ED1 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 16000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+20.9868s: ED2 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 17600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.1513s: ED4 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 2 (SF9)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 20800 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 18200 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 15600 meters
+  Environment: Rural
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+30.8516s: ED1 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 4 (SF11)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 22000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+30.9868s: ED2 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 5 (SF12)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 27500 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.1513s: ED4 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 13000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 14000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 15600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.8516s: ED1 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 19000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+40.9868s: ED2 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 1 (SF8)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 14300 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.1513s: ED4 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 13000 meters
+  Environment: Rural
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+50.634s: ED5 attempting Tx with parameters:
+  Channel: 3 (867.1 MHz)
+  SF: 2 (SF9)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 22400 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.6856s: ED3 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 19200 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.8516s: ED1 attempting Tx with parameters:
+  Channel: 7 (867.9 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 19000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+50.9868s: ED2 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 17600 meters
+  Environment: Rural
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+60.1513s: ED4 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 13000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.634s: ED5 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 14000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 15600 meters
+  Environment: Rural
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+60.8516s: ED1 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 19000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+60.9868s: ED2 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 2 (SF9)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 17600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.1513s: ED4 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 5 (SF12)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 32500 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 14000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.6856s: ED3 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 15600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.8516s: ED1 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 5 (SF12)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 25000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+70.9868s: ED2 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 3 (SF10)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 20900 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.1513s: ED4 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 5 (SF12)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 32500 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.634s: ED5 attempting Tx with parameters:
+  Channel: 5 (867.5 MHz)
+  SF: 4 (SF11)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 30800 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.6856s: ED3 attempting Tx with parameters:
+  Channel: 4 (867.3 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 15600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.8516s: ED1 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 5 (SF12)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 25000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+80.9868s: ED2 attempting Tx with parameters:
+  Channel: 1 (868.3 MHz)
+  SF: 4 (SF11)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 24200 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.1513s: ED4 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 4 (SF11)
+  Tx Power: 17 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 35 bytes
+  Estimated Range: 28600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.634s: ED5 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 0 (SF7)
+  Tx Power: 18 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 40 bytes
+  Estimated Range: 14000 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.6856s: ED3 attempting Tx with parameters:
+  Channel: 2 (868.5 MHz)
+  SF: 1 (SF8)
+  Tx Power: 16 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 30 bytes
+  Estimated Range: 15600 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+90.8516s: ED1 attempting Tx with parameters:
+  Channel: 6 (867.7 MHz)
+  SF: 3 (SF10)
+  Tx Power: 14 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 20 bytes
+  Estimated Range: 19000 meters
+  Environment: Rural
+  -> Tx Outcome: Failure (No ACK)
+  --------------------------
+90.9868s: ED2 attempting Tx with parameters:
+  Channel: 0 (868.1 MHz)
+  SF: 4 (SF11)
+  Tx Power: 15 dBm
+  Bandwidth: 125 kHz
+  Coding Rate: 4/5
+  Payload Size: 25 bytes
+  Estimated Range: 24200 meters
+  Environment: Rural
+  -> Tx Outcome: Success (ACK)
+  --------------------------
+Simulation finished.
+
+--- Simulation Results ---
+Total Transmission Attempts: 50
+Total Successful Transmissions: 43
+Overall Frame Success Rate (FSR): 86%

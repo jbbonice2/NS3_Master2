@@ -1,22 +1,22 @@
 Performing C++ SOURCE FILE Test HAVE_UINT128_T failed with the following output:
-Change Dir: /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-F05UpG
+Change Dir: /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ppTntO
 
-Run Build Command(s):/usr/bin/ninja cmTC_86ab1 && [1/2] Building CXX object CMakeFiles/cmTC_86ab1.dir/src.cxx.o
-FAILED: CMakeFiles/cmTC_86ab1.dir/src.cxx.o 
-/usr/bin/c++ -DHAVE_UINT128_T  -fPIE -std=c++20 -o CMakeFiles/cmTC_86ab1.dir/src.cxx.o -c /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-F05UpG/src.cxx
-/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-F05UpG/src.cxx: In function ‘int main()’:
-/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-F05UpG/src.cxx:4:18: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+Run Build Command(s):/usr/bin/ninja cmTC_da353 && [1/2] Building CXX object CMakeFiles/cmTC_da353.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_da353.dir/src.cxx.o 
+/usr/bin/c++ -DHAVE_UINT128_T  -fPIE -std=c++20 -o CMakeFiles/cmTC_da353.dir/src.cxx.o -c /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ppTntO/src.cxx
+/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ppTntO/src.cxx: In function ‘int main()’:
+/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ppTntO/src.cxx:4:18: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
     4 |             if ((uint128_t *) 0) return 0;
       |                  ^~~~~~~~~
       |                  uint8_t
-/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-F05UpG/src.cxx:4:29: error: expected primary-expression before ‘)’ token
+/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ppTntO/src.cxx:4:29: error: expected primary-expression before ‘)’ token
     4 |             if ((uint128_t *) 0) return 0;
       |                             ^
-/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-F05UpG/src.cxx:4:30: error: expected ‘)’ before numeric constant
+/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ppTntO/src.cxx:4:30: error: expected ‘)’ before numeric constant
     4 |             if ((uint128_t *) 0) return 0;
       |                ~             ^~
       |                              )
-/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-F05UpG/src.cxx:5:25: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ppTntO/src.cxx:5:25: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
     5 |             if (sizeof (uint128_t)) return 0;
       |                         ^~~~~~~~~
       |                         uint8_t
@@ -33,12 +33,12 @@ Source file was:
          }
 
 Determining if the include file net/netmap_user.h exists failed with the following output:
-Change Dir: /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-QNT0gl
+Change Dir: /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ZNqRrs
 
-Run Build Command(s):/usr/bin/ninja cmTC_e9dd8 && [1/2] Building C object CMakeFiles/cmTC_e9dd8.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_e9dd8.dir/CheckIncludeFile.c.o 
-/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_e9dd8.dir/CheckIncludeFile.c.o -c /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-QNT0gl/CheckIncludeFile.c
-/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-QNT0gl/CheckIncludeFile.c:1:10: fatal error: net/netmap_user.h: Aucun fichier ou dossier de ce type
+Run Build Command(s):/usr/bin/ninja cmTC_fff55 && [1/2] Building C object CMakeFiles/cmTC_fff55.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_fff55.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_fff55.dir/CheckIncludeFile.c.o -c /home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ZNqRrs/CheckIncludeFile.c
+/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/cmake-cache/CMakeFiles/CMakeScratch/TryCompile-ZNqRrs/CheckIncludeFile.c:1:10: fatal error: net/netmap_user.h: Aucun fichier ou dossier de ce type
     1 | #include <net/netmap_user.h>
       |          ^~~~~~~~~~~~~~~~~~~
 compilation terminated.
