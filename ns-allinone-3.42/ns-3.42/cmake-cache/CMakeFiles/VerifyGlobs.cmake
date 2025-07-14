@@ -8,6 +8,12 @@ set(OLD_GLOB
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/CMakeLists.txt"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/README-rural.md"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/README-urban.md"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mixed-interf.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mixed.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mobile-interf.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mobile.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-static-interf.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-static.cc"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-tow-mab-rural.cc"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-tow-mab-test.cc"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-tow-mab-urban.cc"
@@ -23,6 +29,12 @@ endif()
 # single_source_file_scratches at scratch/CMakeLists.txt:77 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/[^.]*.cc")
 set(OLD_GLOB
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mixed-interf.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mixed.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mobile-interf.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-mobile.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-static-interf.cc"
+  "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-logistics-mab-static.cc"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-tow-mab-rural.cc"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-tow-mab-test.cc"
   "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/scratch/lorawan-tow-mab-urban.cc"

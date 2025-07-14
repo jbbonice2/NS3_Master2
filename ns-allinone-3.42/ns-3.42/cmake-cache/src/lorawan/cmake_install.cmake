@@ -106,6 +106,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/src/lorawan/model/adr-component.h"
     "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/src/lorawan/model/hex-grid-position-allocator.h"
     "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/src/lorawan/model/tow-mab-selector.h"
+    "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/src/lorawan/model/ee-mab-selector.h"
     "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/src/lorawan/helper/lora-radio-energy-model-helper.h"
     "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/src/lorawan/helper/lora-helper.h"
     "/home/bonice/Bureau/knowledge/ns-allinone-3.42/ns-3.42/src/lorawan/helper/lora-phy-helper.h"
