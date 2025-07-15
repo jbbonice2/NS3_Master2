@@ -15,6 +15,50 @@ Ce projet contient un ensemble complet de simulations NS-3 pour l'analyse des pe
   pip install pandas matplotlib seaborn numpy argparse
   ```
 
+## 🔧 Compilation et Configuration
+
+### 1. Compilation complète du projet NS-3
+
+```bash
+# Se placer dans le dossier NS-3
+cd ns-3.42
+
+# Configuration avec tous les modules (incluant LoRaWAN)
+./ns3 configure --enable-examples --enable-tests
+
+# Compilation complète
+./ns3 build
+```
+
+### 2. Activation spécifique du module LoRaWAN
+
+```bash
+# Vérifier que le module LoRaWAN est disponible
+./ns3 show modules | grep lorawan
+
+# Configuration avec LoRaWAN explicitement activé
+./ns3 configure --enable-modules=lorawan --enable-examples --enable-tests
+
+# Ou configuration complète (recommandé)
+./ns3 configure --enable-examples --enable-tests --enable-logs
+
+# Compilation
+./ns3 build
+```
+
+### 3. Vérification de l'installation
+
+```bash
+# Tester la compilation des simulations LoRaWAN
+./ns3 build lorawan-logistics-mab-static
+
+# Vérifier les exemples LoRaWAN disponibles
+ls scratch/lorawan-*
+
+# Tester l'exécution d'une simulation simple
+./ns3 run /src/lorawan/examples/adr-example.cc
+```
+
 ## 📊 Analyse des résultats
 
 ### 1. Installation des dépendances
@@ -863,6 +907,33 @@ Modifiez les scripts Python pour ajouter vos propres métriques et visualisation
 ./ns3 clean
 ./ns3 configure --enable-examples --enable-tests
 ./ns3 build
+```
+
+### Problèmes spécifiques LoRaWAN
+```bash
+# Vérifier que le module LoRaWAN est bien compilé
+./ns3 show modules | grep lorawan
+
+# Si le module LoRaWAN n'est pas trouvé, recompiler avec :
+./ns3 configure --enable-modules=lorawan --enable-examples --enable-tests
+./ns3 build
+
+# Vérifier les dépendances LoRaWAN
+ls src/lorawan/
+
+# Tester une simulation simple pour vérifier LoRaWAN
+./ns3 run "lorawan-logistics-mab-static --help"
+```
+
+### Erreurs de modules manquants
+```bash
+# Si des modules NS-3 sont manquants, recompiler tout :
+./ns3 clean
+./ns3 configure --enable-examples --enable-tests --enable-logs
+./ns3 build --verbose
+
+# Vérifier tous les modules disponibles
+./ns3 show modules
 ```
 
 ### Problèmes avec les résultats
