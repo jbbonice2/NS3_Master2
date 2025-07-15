@@ -5,7 +5,17 @@ Ce projet contient un ensemble complet de simulations NS-3 pour l'analyse des pe
 ## 📋 Prérequis
 
 - NS-3.42 installé et configuré
-- Python 3.x avec l## 📊 Analyse des résultats
+- Python 3.x avec les bibliothèques suivantes :
+  ```bash
+  pip install -r requirements.txt
+  ```
+  
+  Ou installer manuellement :
+  ```bash
+  pip install pandas matplotlib seaborn numpy argparse
+  ```
+
+## 📊 Analyse des résultats
 
 ### 1. Installation des dépendances
 
@@ -15,107 +25,7 @@ python3 check_environment.py
 
 # Installer les dépendances Python
 pip install -r requirements.txt
-
-# Ou avec conda
-conda install pandas matplotlib seaborn numpy
 ```
-
-
-
-#### **Scripts d'aide et de test**
-
-4. **`test_visualization.py`** - Test des scripts avec données simulées
-   ```bash
-   # Tester les scripts avec des données de test
-   python3 test_visualization.py
-   ```
-
-5. **`check_environment.py`** - Vérification de l'environnement
-   ```bash
-   # Vérifier les dépendances et l'installation
-   python3 check_environment.py
-   ```
-
-### 3. Exécution complète automatisée
-
-```bash
-# Tout automatiquement avec le script d'aide
-./run_simulation.sh all
-
-# Ou étape par étape
-./run_simulation.sh compile     # Compilation
-./run_simulation.sh run-all     # Toutes les simulations
-./run_simulation.sh plot-all    # Tous les graphiques
-./run_simulation.sh summary     # Résumé des résultats
-```
-
-### 4. Exécution manuelle complète
-
-#### **Étape 1: Compilation**
-```bash
-cd ns-3.42
-./ns3 configure --enable-examples --enable-tests
-./ns3 build
-```
-
-#### **Étape 2: Exécution de toutes les simulations**
-```bash
-# Simulations statiques
-./ns3 run lorawan-logistics-mab-static
-./ns3 run lorawan-logistics-mab-static-interf
-
-# Simulations mobiles
-./ns3 run lorawan-logistics-mab-mobile
-./ns3 run lorawan-logistics-mab-mobile-interf
-
-# Simulations mixtes
-./ns3 run lorawan-logistics-mab-mixed
-./ns3 run lorawan-logistics-mab-mixed-interf
-```
-
-#### **Étape 3: Génération de tous les graphiques**
-```bash
-# Sortir du dossier ns-3.42
-cd ..
-
-# Graphiques pour toutes les simulations statiques
-python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results/
-python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results_interf/
-
-# Graphiques pour toutes les simulations mobiles
-python3 ns-3.42/scratch/plot_lorawan_mobile.py lorawan_mobile_results/
-python3 ns-3.42/scratch/plot_lorawan_mobile.py lorawan_mobile_results_interf/
-
-# Graphiques pour toutes les simulations mixtes
-python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results/
-python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results_interf/
-```
-
-### 5. Exécution sélective
-
-#### **Simulation spécifique**
-```bash
-# Exemple : Simulation mixte avec interférences
-./ns3 run lorawan-logistics-mab-mixed-interf
-python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results_interf/
-```
-
-#### **Type de simulation spécifique**
-```bash
-# Toutes les simulations statiques
-./ns3 run lorawan-logistics-mab-static
-./ns3 run lorawan-logistics-mab-static-interf
-python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results/
-python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results_interf/
-```thèques suivantes :
-  ```bash
-  pip install -r requirements.txt
-  ```
-  
-  Ou installer manuellement :
-  ```bash
-  pip install pandas matplotlib seaborn numpy argparse
-  ```
 
 ## 🏗️ Structure Complète du Projet
 
@@ -376,6 +286,10 @@ Le projet comprend 6 simulations différentes couvrant tous les scénarios logis
 
 ## 🚀 Exécution des Simulations
 
+### Processus complet : Compilation → Simulation → Génération CSV → Visualisation
+
+**Important :** Les simulations NS-3 génèrent automatiquement des fichiers CSV contenant les données de performance. Ces fichiers CSV sont ensuite utilisés par les scripts de visualisation pour créer les graphiques.
+
 ### Liste complète des fichiers de simulation
 
 Le projet comprend **6 simulations différentes** couvrant tous les scénarios logistiques :
@@ -397,23 +311,25 @@ Le projet comprend **6 simulations différentes** couvrant tous les scénarios l
 | `plot_lorawan_mobile.py` | Visualisation simulations mobiles | `python3 plot_lorawan_mobile.py [dossier_résultats]` |
 | `plot_lorawan_mixed.py` | Visualisation simulations mixtes | `python3 plot_lorawan_mixed.py [dossier_résultats]` |
 
-### Méthode 1: Script automatisé (recommandé)
+## 🚀 Exécution Complète
+
+### Script automatisé (recommandé)
 
 ```bash
 # Rendre le script exécutable
 chmod +x run_simulation.sh
 
-# Exécuter tout automatiquement (compile + simule + visualise)
+# Exécuter tout automatiquement (compile + simule + génère CSV + visualise)
 ./run_simulation.sh all
 
 # Ou étape par étape
 ./run_simulation.sh compile    # Compilation uniquement
-./run_simulation.sh run-all    # Toutes les simulations
-./run_simulation.sh plot-all   # Tous les graphiques
+./run_simulation.sh run-all    # Toutes les simulations (génère les CSV)
+./run_simulation.sh plot-all   # Tous les graphiques (à partir des CSV)
 ./run_simulation.sh summary    # Résumé des résultats
 ```
 
-### Méthode 2: Exécution manuelle
+### Exécution manuelle étape par étape
 
 #### Étape 1: Compilation
 ```bash
@@ -422,55 +338,55 @@ cd ns-3.42
 ./ns3 build
 ```
 
-#### Étape 2: Exécution des simulations
+#### Étape 2: Exécution des simulations (génération des fichiers CSV)
 
 **Simulations statiques:**
 ```bash
-# Sans interférences
+# Sans interférences - génère lorawan_static_results/*.csv
 ./ns3 run lorawan-logistics-mab-static
 
-# Avec interférences
+# Avec interférences - génère lorawan_static_results_interf/*.csv
 ./ns3 run lorawan-logistics-mab-static-interf
 ```
 
 **Simulations mobiles:**
 ```bash
-# Sans interférences
+# Sans interférences - génère lorawan_mobile_results/*.csv
 ./ns3 run lorawan-logistics-mab-mobile
 
-# Avec interférences
+# Avec interférences - génère lorawan_mobile_results_interf/*.csv
 ./ns3 run lorawan-logistics-mab-mobile-interf
 ```
 
 **Simulations mixtes:**
 ```bash
-# Sans interférences
+# Sans interférences - génère lorawan_mixed_results/*.csv
 ./ns3 run lorawan-logistics-mab-mixed
 
-# Avec interférences
+# Avec interférences - génère lorawan_mixed_results_interf/*.csv
 ./ns3 run lorawan-logistics-mab-mixed-interf
 ```
 
-#### Étape 3: Génération des graphiques
+#### Étape 3: Génération des graphiques (à partir des fichiers CSV)
 
 ```bash
 # Sortir du dossier ns-3.42
 cd ..
 
-# Graphiques pour simulations statiques
+# Graphiques pour simulations statiques (utilise les CSV générés)
 python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results/
 python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results_interf/
 
-# Graphiques pour simulations mobiles
+# Graphiques pour simulations mobiles (utilise les CSV générés)
 python3 ns-3.42/scratch/plot_lorawan_mobile.py lorawan_mobile_results/
 python3 ns-3.42/scratch/plot_lorawan_mobile.py lorawan_mobile_results_interf/
 
-# Graphiques pour simulations mixtes
+# Graphiques pour simulations mixtes (utilise les CSV générés)
 python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results/
 python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results_interf/
 ```
 
-### Méthode 3: Exécution avec paramètres personnalisés
+### Exécution avec paramètres personnalisés
 
 ```bash
 # Exemples avec arguments (si supportés par la simulation)
@@ -478,7 +394,7 @@ python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results_interf/
 ./ns3 run "lorawan-logistics-mab-static --areaRadius=2000"
 ```
 
-### Méthode 4: Exécution sélective
+### Exécution sélective
 
 ```bash
 # Compiler uniquement
@@ -494,49 +410,7 @@ python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results_interf/
 ./run_simulation.sh summary
 ```
 
-## 🚀 Exécution rapide
-
-### Script d'aide automatisé
-
-Un script bash est fourni pour simplifier l'exécution :
-
-```bash
-# Rendre le script exécutable
-chmod +x run_simulation.sh
-
-# Exécuter tout automatiquement
-./run_simulation.sh all
-
-# Ou exécuter étape par étape
-./run_simulation.sh compile  # Compilation
-./run_simulation.sh run      # Simulation
-./run_simulation.sh plot     # Graphiques
-```
-
-### Exécution manuelle
-
-## 🚀 Exécution de la simulation
-
-### 1. Compilation
-
-```bash
-cd ns-allinone-3.42/ns-3.42
-./ns3 configure --enable-examples --enable-tests
-./ns3 build
-```
-
-### 2. Exécution de la simulation
-
-```bash
-# Simulation complète (peut prendre du temps)
-./ns3 run lorawan-logistics-mab-mixed-interf
-
-# Ou directement depuis le dossier build
-cd build
-./scratch/ns3.42-lorawan-logistics-mab-mixed-interf-default
-```
-
-### 3. Paramètres de simulation
+## � Paramètres de simulation
 
 #### **Paramètres LoRa testés (toutes simulations)**
 - **Spreading Factor (SF)** : 7, 8, 9, 10, 11 (ou 12 selon la simulation)
@@ -633,9 +507,6 @@ python3 check_environment.py
 
 # Installer les dépendances Python
 pip install -r requirements.txt
-
-# Ou avec conda
-conda install pandas matplotlib seaborn numpy
 ```
 
 ### 2. Scripts de visualisation disponibles
@@ -729,41 +600,16 @@ Les scripts génèrent automatiquement de nombreux graphiques dans des sous-doss
 - `snr_vs_message_txPower_bw.png` - SNR par message (puissance × bande)
 - `rssi_vs_message_txPower_bw.png` - RSSI par message (puissance × bande)
 
-### 4. Exécution complète
-
-#### **Toutes les simulations + visualisations**
-```bash
-# 1. Compilation
-cd ns-3.42
-./ns3 configure --enable-examples --enable-tests
-./ns3 build
-
-# 2. Exécution de toutes les simulations
-./ns3 run lorawan-logistics-mab-static
-./ns3 run lorawan-logistics-mab-static-interf
-./ns3 run lorawan-logistics-mab-mobile
-./ns3 run lorawan-logistics-mab-mobile-interf
-./ns3 run lorawan-logistics-mab-mixed
-./ns3 run lorawan-logistics-mab-mixed-interf
-
-# 3. Génération de tous les graphiques
-cd ..
-python plot_lorawan_mixed_interf.py lorawan_static_results/
-python plot_lorawan_mixed_interf.py lorawan_static_results_interf/
-python plot_lorawan_mobile_interf.py lorawan_mobile_results/
-python plot_lorawan_mobile_interf.py lorawan_mobile_results_interf/
-python plot_lorawan_mixed_interf.py lorawan_mixed_results/
-python plot_lorawan_mixed_interf.py lorawan_mixed_results_interf/
-```
-
 #### **Simulation spécifique**
 ```bash
 # Exemple : Simulation mixte avec interférences
-./ns3 run lorawan-logistics-mab-mixed-interf
-python plot_lorawan_mixed_interf.py lorawan_mixed_results_interf/
+cd ns-3.42
+./ns3 run lorawan-logistics-mab-mixed-interf  # Génère le CSV
+cd ..
+python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results_interf/  # Utilise le CSV
 ```
 
-### 5. Création du script d'analyse personnalisé (optionnel)
+## 🔧 Analyse personnalisée (optionnel)
 
 Pour créer votre propre script d'analyse, créez le fichier `scripts/analyze_results.py` :
 
@@ -954,13 +800,10 @@ mkdir -p scripts
 
 # Copier le script d'analyse dans scripts/analyze_results.py
 # Puis exécuter l'analyse
-cd ns-allinone-3.42
 python scripts/analyze_results.py
 ```
 
-## 📈 Résultats attendus
-
-L'analyse génère plusieurs types de graphiques :
+## 📈 Résultats générés
 
 ### **Scripts automatisés (plot_lorawan_*.py)**
 - Graphiques de performance par paramètre LoRa (SF, puissance, payload, bande passante)
@@ -970,10 +813,12 @@ L'analyse génère plusieurs types de graphiques :
 - Graphiques d'efficacité énergétique
 
 ### **Script personnalisé (analyze_results.py)**
-
-### **Script personnalisé (analyze_results.py)**
-
 1. **Taux de succès** par SF et puissance de transmission
+2. **RSSI vs Distance** par Spreading Factor
+3. **Consommation énergétique** par SF
+4. **Impact des interférences** par SF
+5. **Time on Air** par payload et SF
+6. **Évolution temporelle** du taux de succès
 2. **RSSI vs Distance** par Spreading Factor
 3. **Consommation énergétique** par SF
 4. **Impact des interférences** par SF
@@ -984,22 +829,22 @@ L'analyse génère plusieurs types de graphiques :
 
 ### Modification des paramètres de simulation
 
-Éditez le fichier `lorawan-logistics-mab-mixed-interf.cc` pour modifier :
+Éditez les fichiers `.cc` pour modifier :
 
 ```cpp
-// Ligne ~200 : Nombre de dispositifs
+// Nombre de dispositifs
 uint32_t nDevices = 1000;
 
-// Ligne ~201 : Ratio de dispositifs mobiles
+// Ratio de dispositifs mobiles (simulations mixtes)
 double mobileRatio = 0.5;
 
-// Ligne ~202 : Intervalle entre paquets
+// Intervalle entre paquets
 double packetIntervalSeconds = 15.0;
 
-// Ligne ~203 : Nombre de messages par dispositif
+// Nombre de messages par dispositif
 uint32_t nMessages = 20;
 
-// Lignes ~160-165 : Paramètres LoRa testés
+// Paramètres LoRa testés
 std::vector<int> sfList = {7,8,9,10,11};
 std::vector<int> txPowerList = {2,8};
 std::vector<int> payloadList = {50,100,150,200,250};
@@ -1008,7 +853,7 @@ std::vector<int> bwList = {125000, 250000};
 
 ### Ajout d'analyses personnalisées
 
-Modifiez le script `analyze_results.py` pour ajouter vos propres métriques et visualisations.
+Modifiez les scripts Python pour ajouter vos propres métriques et visualisations.
 
 ## 🐛 Dépannage
 
@@ -1036,9 +881,6 @@ pip install -r requirements.txt
 
 # Ou installer manuellement
 pip install pandas matplotlib seaborn numpy argparse
-
-# Ou avec conda
-conda install pandas matplotlib seaborn numpy
 ```
 
 ### Problèmes avec les scripts de visualisation
@@ -1119,4 +961,3 @@ basic ns-3 (netanim and ns-3-dev) is to type:
 ./build.py --enable-examples --enable-tests
 ```
 and change directory to ns-3-dev for further work.
-
