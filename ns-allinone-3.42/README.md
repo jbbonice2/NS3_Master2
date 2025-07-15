@@ -20,38 +20,7 @@ pip install -r requirements.txt
 conda install pandas matplotlib seaborn numpy
 ```
 
-### 2. Scripts de visualisation disponibles
 
-Le projet contient **3 scripts Python complets** pour analyser et visualiser les résultats :
-
-#### **Scripts de visualisation spécialisés**
-
-1. **`plot_lorawan_static.py`** - Analyse des simulations statiques
-   ```bash
-   # Simulation statique sans interférences
-   python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results/
-   
-   # Simulation statique avec interférences
-   python3 ns-3.42/scratch/plot_lorawan_static.py lorawan_static_results_interf/
-   ```
-
-2. **`plot_lorawan_mobile.py`** - Analyse des simulations mobiles
-   ```bash
-   # Simulation mobile sans interférences
-   python3 ns-3.42/scratch/plot_lorawan_mobile.py lorawan_mobile_results/
-   
-   # Simulation mobile avec interférences
-   python3 ns-3.42/scratch/plot_lorawan_mobile.py lorawan_mobile_results_interf/
-   ```
-
-3. **`plot_lorawan_mixed.py`** - Analyse des simulations mixtes
-   ```bash
-   # Simulation mixte sans interférences
-   python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results/
-   
-   # Simulation mixte avec interférences
-   python3 ns-3.42/scratch/plot_lorawan_mixed.py lorawan_mixed_results_interf/
-   ```
 
 #### **Scripts d'aide et de test**
 
